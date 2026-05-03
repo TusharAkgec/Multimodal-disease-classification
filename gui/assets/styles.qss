@@ -1,0 +1,155 @@
+/* Minimal, readable dark-ish UI theme */
+
+#AppRoot {
+  background: #0f1115;
+  color: #e8eaf0;
+  font-family: "Segoe UI", "Arial";
+}
+
+QLabel {
+  color: #252629;
+}
+
+#HeaderFrame {
+  background: qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 #121622, stop:1 #0f1115);
+  border: 1px solid #23283a;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+#HeaderTitle {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#HeaderSubtitle {
+  color: #b8bed0;
+}
+
+#HeaderStatus {
+  color: #7fe0ff;
+  font-weight: 600;
+}
+
+#LeftPanel, #RightPanel {
+  background: #141825;
+  border: 1px solid #23283a;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+#SectionTitle {
+  font-size: 13px;
+  font-weight: 700;
+  color: #cdd3e4;
+}
+
+#InputField, #ComboField {
+  background: #0f1115;
+  border: 1px solid #2a3045;
+  border-radius: 10px;
+  padding: 10px;
+  color: #e8eaf0;
+}
+
+QComboBox::drop-down {
+  border: 0px;
+}
+
+QComboBox QAbstractItemView {
+  background: #0f1115;
+  border: 1px solid #2a3045;
+  selection-background-color: #253056;
+  color: #e8eaf0;
+}
+
+#PrimaryButton {
+  background: #2b6cff;
+  color: white;
+  border: 0px;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 700;
+}
+
+#PrimaryButton:disabled {
+  background: #2b6cff;
+  color: #c7d2ff;
+  opacity: 0.55;
+}
+
+#SecondaryButton {
+  background: #202638;
+  color: #e8eaf0;
+  border: 1px solid #2a3045;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-weight: 600;
+}
+
+#TertiaryButton {
+  background: transparent;
+  color: #b8bed0;
+  border: 1px solid #2a3045;
+  border-radius: 10px;
+  padding: 10px 12px;
+}
+
+#ImagePreview {
+  background: #0f1115;
+  border: 1px dashed #2a3045;
+  border-radius: 12px;
+  color: #7f869c;
+}
+
+#PredictionCard {
+  background: #0f1115;
+  border: 1px solid #2a3045;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+#PredLabel {
+  font-size: 26px;
+  font-weight: 800;
+  padding-top: 6px;
+}
+
+#PredConfidence {
+  color: #b8bed0;
+}
+
+#FusionLabel {
+  color: #b8bed0;
+  padding: 4px 0px;
+}
+
+#ProbabilityBar {
+  background: transparent;
+}
+
+#ProbLabel {
+  font-weight: 600;
+}
+
+#ProbValue {
+  color: #b8bed0;
+}
+
+#ProbProgress {
+  background: #0f1115;
+  border: 1px solid #2a3045;
+  border-radius: 8px;
+  height: 12px;
+}
+
+#ProbProgress::chunk {
+  background: #46d3ff;
+  border-radius: 8px;
+}
+
+#ProbScroll {
+  border: 0px;
+  background: transparent;
+}
+

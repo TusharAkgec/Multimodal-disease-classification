@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+multimodal_env/
+venv/
+env/
+
+# Dataset (images)
+data/
+*.jpg
+*.jpeg
+*.png
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# VS Code
+.vscode/
+
+# Temp files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

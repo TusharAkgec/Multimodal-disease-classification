@@ -1,0 +1,11 @@
+torch
+torchvision
+timm
+pillow
+numpy
+pandas
+PyQt5
+albumentations
+opencv-python-headless
+streamlit
+plotly

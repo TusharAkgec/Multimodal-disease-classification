@@ -1,0 +1,10 @@
+torch
+torchvision
+timm
+pillow
+numpy
+pandas
+PyQt5
+
+# Note: install the correct CUDA-enabled torch wheel separately if needed.
+

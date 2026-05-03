@@ -1,0 +1,6 @@
+{
+  "Atelectasis": 0,
+  "Effusion": 1,
+  "Infiltration": 2,
+  "No Finding": 3
+}
