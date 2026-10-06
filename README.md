@@ -241,7 +241,7 @@ For production clinical deployment, additional validation, calibration, privacy 
 ### Research Team
 
 - `<Sparsh Sharma>` - Model development and experimentation
--  <Tushar Gupta>` - Explainability and interface development
+- `<Tushar Gupta >` - Explainability and interface development
 - `<Vaishnavi Mishra>` - Dataset preparation and evaluation
   
 - `<Ajay Kumar Garg Engineering College / Information Technology>` - Research supervision
